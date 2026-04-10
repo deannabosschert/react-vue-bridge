@@ -1,0 +1,30 @@
+{
+  "name": "poc-rte-portable-text",
+  "version": "0.0.1",
+  "private": true,
+  "description": "PoC: Portable Text Editor (React) in Nuxt 4 via React-Vue bridge",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@portabletext/editor": "^6.6.0",
+    "@portabletext/vue": "^1.0.12",
+    "nuxt": "^3.17.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "sass-embedded": "^1.89.0",
+    "typescript": "^5.8.0"
+  },
+  "packageManager": "yarn@4.12.0",
+  "volta": {
+    "node": "22.13.0"
+  }
+}
